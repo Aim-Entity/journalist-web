@@ -1,3 +1,63 @@
-body {
-  background-color: blue;
+.base-hero {
+  position: absolute;
+  height: 549px;
+  left: 154px;
+  top: 75px;
+}
+
+.lime-circ {
+  position: absolute;
+  width: 268px;
+  height: 268px;
+  left: 1100px;
+  top: 18px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  height: 276px;
+  left: 650px;
+  top: 175px;
+}
+
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+
+  color: #ffffff;
+}
+
+.inspo {
+  margin-top: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.btn {
+  position: absolute;
+  cursor: pointer;
+  width: 185px;
+  height: 50px;
+  left: 650px;
+  top: 441px;
+  border: none;
+
+  background: rgba(7, 26, 82, 0.8);
+  border-radius: 20px;
+}
+
+.btn-msg {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+
+  color: #ffffff;
 }

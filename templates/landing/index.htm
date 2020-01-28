@@ -7,11 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% block head %}
     <title>Home</title>
-    {% endblock %}
+    <img
+      src="{% static 'imgs/landing_page/Hero.svg' %}"
+      alt="Hero"
+      class="base-hero"
+    />
     <link rel="stylesheet" href="{% static 'landing_page/style.css' %}" />
+    {% endblock %}
   </head>
   <body>
-    {% block content %} {% endblock %}
+    {% block content %}
+    <div class="container">
+      <img
+        src="{% static 'imgs/landing_page/lime_circ.svg' %}"
+        alt="Lime-circ"
+        class="lime-circ"
+      />
+
+      <div class="info">
+        <div class="text">
+          <h2 class="title">Find Your Adventurous Self</h2>
+          <p class="inspo">
+            Become an elite journalist and discover your inner-childhood dreams.
+          </p>
+        </div>
+
+        <a href=""
+          ><button class="btn"><p class="btn-msg">Join</p></button></a
+        >
+      </div>
+    </div>
+    {% endblock %}
     <script src="{% static 'landing_page/app.js' %}"></script>
   </body>
 </html>
