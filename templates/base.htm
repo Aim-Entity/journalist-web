@@ -5,11 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="{% static 'base.js' %}"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"
+      integrity="sha256-kRbW+SRRXPogeps8ZQcw2PooWEDPIjVQmN1ocWVQHRY="
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="{% static 'base.css' %}" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300i,400,500,600i&display=swap"
       rel="stylesheet"
     />
+
     {% block head %}
     <title>BASE</title>
     {% endblock %}
@@ -40,7 +47,5 @@
     {% block content %}
     <h1>CREATE A CONTENT BLOCK</h1>
     {% endblock %}
-
-    <script src="{% static 'base.js' %}"></script>
   </body>
 </html>
