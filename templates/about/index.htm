@@ -12,6 +12,30 @@
   </head>
   <body>
     {% block content %}
+    <div class="container">
+      <img
+        src="{% static 'imgs/left_circ.svg' %}"
+        alt="circ"
+        class="left-circ"
+      />
+      <img src="{% static 'imgs/cen_circ.svg' %}" alt="circ" class="cen-circ" />
+      <img
+        src="{% static 'imgs/right_circ.svg' %}"
+        alt="circ"
+        class="right-circ"
+      />
+      <div class="info">
+        <h2 class="title">Why Join Us?</h2>
+        <p class="para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit.
+        </p>
+      </div>
+    </div>
+
     <script src="{% static 'about/app.js' %}"></script>
     {% endblock %}
   </body>

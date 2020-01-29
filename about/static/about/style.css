@@ -1,0 +1,61 @@
+.info {
+  position: absolute;
+  width: 1000px;
+  height: 450px;
+  left: 150px;
+  top: 150px;
+}
+
+.base-home {
+  opacity: 1;
+}
+
+.base-about {
+  opacity: 0.4;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.para {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 50px;
+  /* or 222% */
+
+  color: #ffffff;
+}
+
+.left-circ {
+  position: absolute;
+  width: 251px;
+  height: 264px;
+  left: 0px;
+  top: 402px;
+}
+
+.cen-circ {
+  position: absolute;
+  width: 451px;
+  height: 464px;
+  left: 400px;
+  top: 300px;
+}
+
+.right-circ {
+  position: absolute;
+  width: 251px;
+  height: 264px;
+  left: 1050px;
+  top: 402px;
+}
