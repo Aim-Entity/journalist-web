@@ -31,13 +31,17 @@
         <div class="base-navigation">
           <ul class="base-ul">
             <li class="base-li">
-              <a href="" class="base-a base-home">Home</a>
+              <a href="{% url 'landing-index' %}" class="base-a base-home"
+                >Home</a
+              >
             </li>
             <li class="base-li">
-              <a href="" class="base-a base-about">About</a>
+              <a href="{% url 'about-index' %}" class="base-a base-about"
+                >About</a
+              >
             </li>
             <li class="base-li">
-              <a href="" class="base-a base-join">Join</a>
+              <a href="{% url 'join-index' %}" class="base-a base-join">Join</a>
             </li>
           </ul>
         </div>

@@ -3,5 +3,5 @@ from . import views
 
 name_space = "join"
 urlpatterns = [
-    path("", views.index, name="index")
+    path("", views.index, name="join-index")
 ]

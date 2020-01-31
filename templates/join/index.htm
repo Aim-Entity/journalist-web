@@ -12,7 +12,40 @@
   </head>
   <body>
     {% block content %}
-    <div class="container"></div>
+    <div class="container">
+      <div class="imgs">
+        <img src="{% static 'joinImgs/time.svg' %}" alt="Time" class="time" />
+        <img
+          src="{% static 'joinImgs/discover.svg' %}"
+          alt="Discover"
+          class="discover"
+        />
+        <img
+          src="{% static 'joinImgs/support.svg' %}"
+          alt="Support"
+          class="support"
+        />
+      </div>
+      <div class="imgInfo">
+        <h3 class="fast">Fast</h3>
+        <h3 class="discoverHead">Discover</h3>
+        <h3 class="supportHead">Support</h3>
+      </div>
+
+      <div class="form">
+        <form action="">
+          <div class="email">
+            <input type="text" id="email" placeholder="Enter Email" />
+          </div>
+
+          <div class="name">
+            <input type="text" id="name" placeholder="Enter Full Name" />
+          </div>
+
+          <input type="submit" class="btn" value="Submit" />
+        </form>
+      </div>
+    </div>
     <script src="{% static 'join/app.js' %}"></script>
     {% endblock %}
   </body>

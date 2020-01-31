@@ -1,1 +1,102 @@
+* {
+  font-family: poppins;
+}
 
+.base-join {
+  opacity: 0.4;
+}
+
+.time {
+  position: absolute;
+  width: 108px;
+  height: 110px;
+  left: 120px;
+  top: 185px;
+}
+
+.discover {
+  position: absolute;
+  width: 108px;
+  height: 110px;
+  left: 580px;
+  top: 185px;
+}
+
+.support {
+  position: absolute;
+  width: 108px;
+  height: 110px;
+  left: 1020px;
+  top: 185px;
+}
+
+.fast {
+  position: absolute;
+  left: 160px;
+  top: 320px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.discoverHead {
+  position: absolute;
+  left: 600px;
+  top: 320px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.supportHead {
+  position: absolute;
+  left: 1040px;
+  top: 320px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#email {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 300px;
+  top: 400px;
+  border: none;
+  border-radius: 1000px;
+}
+
+#email::placeholder {
+  text-align: center;
+}
+
+#name {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 300px;
+  top: 450px;
+  border: none;
+  border-radius: 1000px;
+}
+
+#name::placeholder {
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  background: rgba(23, 185, 120, 0.9);
+  /* width: 700px; */
+  width: 300px;
+  height: 40px;
+  /* left: 300px; */
+  left: 500px;
+  top: 500px;
+  border: 2px solid white;
+  border-radius: 1000px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
