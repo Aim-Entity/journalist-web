@@ -5,6 +5,10 @@
   top: 75px;
 }
 
+.base-home {
+  opacity: 0.4;
+}
+
 .lime-circ {
   position: absolute;
   width: 268px;
